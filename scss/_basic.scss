@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&subset=latin-ext');
+
+$containerWidth: 1140px;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  height: 100%;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mainContent {
+  flex: 1;
+}
+
+.container {
+  width: $containerWidth;
+  margin: 0 auto;
+}
+
+
+//-----------------buttons style-----------------/
+
+
+.whiteToPink-btn {
+  display: block;
+  color: #4a4a4a;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+
+  &:hover {
+    background-color: #f16d7f;
+    cursor: pointer;
+    color: #ffffff;
+  }
+}
+
+.pinkToRed-btn {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #f16d7f;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+
+  &:hover {
+    background-color: #BF3A30;
+    cursor: pointer;
+  }
+}
